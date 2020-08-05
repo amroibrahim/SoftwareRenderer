@@ -1,0 +1,3 @@
+obj cube.obj
+#tex brick.png
+tex cube.png

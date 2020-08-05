@@ -1,0 +1,2 @@
+obj efa.obj
+tex efa.png

@@ -1,0 +1,2 @@
+obj drone.obj
+tex drone.png

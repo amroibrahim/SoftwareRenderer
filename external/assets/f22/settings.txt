@@ -1,0 +1,2 @@
+obj f22.obj
+tex f22.png

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\external\imgui\imgui.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_impl_sdl.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_impl_sdlrenderer.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Engine\Camera.cpp" />
+    <ClCompile Include="Engine\Clipping.cpp" />
+    <ClCompile Include="Engine\Mesh.cpp" />
+    <ClCompile Include="Engine\ModelLoader.cpp" />
+    <ClCompile Include="Engine\RendererEngine.cpp" />
+    <ClCompile Include="Engine\Texture.cpp" />
+    <ClCompile Include="Main\Main.cpp" />
+    <ClCompile Include="Main\SDLWindow.cpp" />
+    <ClCompile Include="Main\SoftwareRenderer.cpp" />
+    <ClCompile Include="Main\Utilities.cpp" />
+    <ClCompile Include="Scenes\Empty\EmptyScene.cpp" />
+    <ClCompile Include="Scenes\FlatShading\FlatShading.cpp" />
+    <ClCompile Include="Scenes\FlatShading\FlatShadingSettingsGUI.cpp" />
+    <ClCompile Include="Scenes\FPSCamera\FPSCamera.cpp" />
+    <ClCompile Include="Scenes\FPSCamera\FPSCameraSettingsGUI.cpp" />
+    <ClCompile Include="Scenes\PointsCloud\PointsCloud.cpp" />
+    <ClCompile Include="Scenes\PointsCloud\PointsCloudSettingsGUI.cpp" />
+    <ClCompile Include="Scenes\ScenesFactory.cpp" />
+    <ClCompile Include="Scenes\TextureMapping\TextureMapping.cpp" />
+    <ClCompile Include="Scenes\TextureMapping\TextureMappingSettingsGUI.cpp" />
+    <ClCompile Include="Scenes\Triangle\Triangle.cpp" />
+    <ClCompile Include="Scenes\Triangle\TriangleSettingsGUI.cpp" />
+    <ClCompile Include="Scenes\Wireframe\Wireframe.cpp" />
+    <ClCompile Include="Scenes\Wireframe\WireframeSettingsGUI.cpp" />
+    <ClCompile Include="SDL_Draw\SDL_Draw.c" />
+    <ClCompile Include="SDL_Draw\SDL_Draw_Helper.cpp" />
+    <ClCompile Include="Settings\LogGUI.cpp" />
+    <ClCompile Include="Settings\SettingsGUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\external\imgui\imconfig.h" />
+    <ClInclude Include="..\..\external\imgui\imgui.h" />
+    <ClInclude Include="..\..\external\imgui\imgui_impl_sdl.h" />
+    <ClInclude Include="..\..\external\imgui\imgui_impl_sdlrenderer.h" />
+    <ClInclude Include="..\..\external\imgui\imgui_internal.h" />
+    <ClInclude Include="..\..\external\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\external\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\..\external\imgui\imstb_truetype.h" />
+    <ClInclude Include="Engine\Camera.h" />
+    <ClInclude Include="Engine\Clipping.h" />
+    <ClInclude Include="Engine\Light.h" />
+    <ClInclude Include="Engine\Mesh.h" />
+    <ClInclude Include="Engine\MeshPrimitives.h" />
+    <ClInclude Include="Engine\ModelLoader.h" />
+    <ClInclude Include="Engine\RendererEngine.h" />
+    <ClInclude Include="Engine\Texture.h" />
+    <ClInclude Include="Main\Configuration.h" />
+    <ClInclude Include="Main\SDLWindow.h" />
+    <ClInclude Include="Main\SoftwareRenderer.h" />
+    <ClInclude Include="Main\Utilities.h" />
+    <ClInclude Include="Math\MathUtil.hpp" />
+    <ClInclude Include="Math\Matrix4.hpp" />
+    <ClInclude Include="Math\Vector2.hpp" />
+    <ClInclude Include="Math\Vector3.hpp" />
+    <ClInclude Include="Math\Vector4.hpp" />
+    <ClInclude Include="Scenes\Empty\EmptyScene.h" />
+    <ClInclude Include="Scenes\FlatShading\FlatShading.h" />
+    <ClInclude Include="Scenes\FlatShading\FlatShadingSettingsGUI.h" />
+    <ClInclude Include="Scenes\FPSCamera\FPSCamera.h" />
+    <ClInclude Include="Scenes\FPSCamera\FPSCameraSettingsGUI.h" />
+    <ClInclude Include="Scenes\PointsCloud\PointsCloud.h" />
+    <ClInclude Include="Scenes\PointsCloud\PointsCloudSettingsGUI.h" />
+    <ClInclude Include="Scenes\Scene.h" />
+    <ClInclude Include="Scenes\SceneSettingsGUI.h" />
+    <ClInclude Include="Scenes\ScenesFactory.h" />
+    <ClInclude Include="Scenes\TextureMapping\TextureMapping.h" />
+    <ClInclude Include="Scenes\TextureMapping\TextureMappingSettingsGUI.h" />
+    <ClInclude Include="Scenes\Triangle\Triangle.h" />
+    <ClInclude Include="Scenes\Triangle\TriangleSettingsGUI.h" />
+    <ClInclude Include="Scenes\Wireframe\Wireframe.h" />
+    <ClInclude Include="Scenes\Wireframe\WireframeSettingsGUI.h" />
+    <ClInclude Include="SDL_Draw\SDL_Draw.h" />
+    <ClInclude Include="SDL_Draw\SDL_Draw_Helper.h" />
+    <ClInclude Include="Settings\LogGUI.h" />
+    <ClInclude Include="Settings\SettingsGUI.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4b9986c1-59e6-43bc-bf64-fddc766091b3}</ProjectGuid>
+    <RootNamespace>SoftwareRenderer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\external\SDL2-2.0.22\include;..\..\external\SDL2_image-2.8.2\include;..\..\external\imgui;.\Engine;.\Main;.\Math;.\Scenes;.\SDL_Draw;.\Settings;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\external\SDL2-2.0.22\lib\x86;..\..\external\SDL2_image-2.8.2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\external\SDL2-2.0.22\include;..\..\external\SDL2_image-2.8.2\include;..\..\external\imgui;.\Engine;.\Main;.\Math;.\Scenes;.\SDL_Draw;.\Settings;.\Engine;.\Main;.\Math;.\Scenes;.\SDL_Draw;.\Settings;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\external\SDL2-2.0.22\lib\x86;..\..\external\SDL2_image-2.8.2\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\external\SDL2-2.0.22\include;..\..\external\SDL2_image-2.8.2\include;..\..\external\imgui;.\Engine;.\Main;.\Math;.\Scenes;.\SDL_Draw;.\Settings;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\external\SDL2-2.0.22\lib\x64;..\..\external\SDL2_image-2.8.2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\external\SDL2-2.0.22\include;..\..\external\SDL2_image-2.8.2\include;..\..\external\imgui;.\Engine;.\Main;.\Math;.\Scenes;.\SDL_Draw;.\Settings;.\Engine;.\Main;.\Math;.\Scenes;.\SDL_Draw;.\Settings;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\external\SDL2-2.0.22\lib\x64;..\..\external\SDL2_image-2.8.2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

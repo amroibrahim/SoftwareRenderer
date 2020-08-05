@@ -1,0 +1,2 @@
+obj f117.obj
+tex f117.png

@@ -1,0 +1,3 @@
+obj bee-eater.obj
+tex bee-eater.jpg
+dst 260

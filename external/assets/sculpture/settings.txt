@@ -1,0 +1,3 @@
+obj sculpture.obj
+tex sculpture.jpg
+dst 800
