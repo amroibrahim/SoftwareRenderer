@@ -1,0 +1,2 @@
+obj african_head.obj
+tex african_head.tga

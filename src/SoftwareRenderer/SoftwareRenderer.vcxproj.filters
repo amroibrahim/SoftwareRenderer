@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{10cd1a2e-bd18-411d-9dc3-c977b98ed244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{e1a11830-ff9a-47d3-823e-8f3925ad1608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{03d856d8-b0d2-4b65-8bf1-a38c4a017acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{34d7f2ea-82e1-4748-8c93-0fbfca01fab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Wireframe">
+      <UniqueIdentifier>{6eadef27-0236-4c64-a733-7f45966e42d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL_Draw">
+      <UniqueIdentifier>{7cfaea9c-5018-4f4c-806e-53b069ac1f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Triangle">
+      <UniqueIdentifier>{63d71972-e0b6-43e9-86a2-14bdedb2242b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{7e0f6094-4be9-4eca-a59e-b6a4965003f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\PointsCloud">
+      <UniqueIdentifier>{531afa7a-9350-4a57-8c0d-4fc9e6b586bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Empty">
+      <UniqueIdentifier>{0ff8a178-0037-468a-880c-a02349d80c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{2476569b-aac4-4743-8c07-7cfc1e8d4741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\FlatShading">
+      <UniqueIdentifier>{14be79f7-14db-40cb-8443-d94262f8ee52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\TextureMapping">
+      <UniqueIdentifier>{fbf7bf60-c909-49dd-9535-28baa1be85a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\FPSCamera">
+      <UniqueIdentifier>{6d64f45a-0975-433a-9e03-a515538bf07d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\external\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_impl_sdl.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_impl_sdlrenderer.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Empty\EmptyScene.cpp">
+      <Filter>Scenes\Empty</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Mesh.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ModelLoader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RendererEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\SDLWindow.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\SoftwareRenderer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\LogGUI.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\SettingsGUI.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\ScenesFactory.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Wireframe\Wireframe.cpp">
+      <Filter>Scenes\Wireframe</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Wireframe\WireframeSettingsGUI.cpp">
+      <Filter>Scenes\Wireframe</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Triangle\Triangle.cpp">
+      <Filter>Scenes\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Triangle\TriangleSettingsGUI.cpp">
+      <Filter>Scenes\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PointsCloud\PointsCloud.cpp">
+      <Filter>Scenes\PointsCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\PointsCloud\PointsCloudSettingsGUI.cpp">
+      <Filter>Scenes\PointsCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_Draw\SDL_Draw.c">
+      <Filter>SDL_Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_Draw\SDL_Draw_Helper.cpp">
+      <Filter>SDL_Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\FlatShading\FlatShading.cpp">
+      <Filter>Scenes\FlatShading</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\FlatShading\FlatShadingSettingsGUI.cpp">
+      <Filter>Scenes\FlatShading</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\TextureMapping\TextureMapping.cpp">
+      <Filter>Scenes\TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\TextureMapping\TextureMappingSettingsGUI.cpp">
+      <Filter>Scenes\TextureMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Utilities.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\FPSCamera\FPSCamera.cpp">
+      <Filter>Scenes\FPSCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\FPSCamera\FPSCameraSettingsGUI.cpp">
+      <Filter>Scenes\FPSCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Clipping.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\external\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui_impl_sdl.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui_impl_sdlrenderer.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Empty\EmptyScene.h">
+      <Filter>Scenes\Empty</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Mesh.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ModelLoader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RendererEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Configuration.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\SDLWindow.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\SoftwareRenderer.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Utilities.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\LogGUI.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\SettingsGUI.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneSettingsGUI.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\ScenesFactory.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Wireframe\Wireframe.h">
+      <Filter>Scenes\Wireframe</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Wireframe\WireframeSettingsGUI.h">
+      <Filter>Scenes\Wireframe</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Triangle\Triangle.h">
+      <Filter>Scenes\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Triangle\TriangleSettingsGUI.h">
+      <Filter>Scenes\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PointsCloud\PointsCloud.h">
+      <Filter>Scenes\PointsCloud</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\PointsCloud\PointsCloudSettingsGUI.h">
+      <Filter>Scenes\PointsCloud</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_Draw\SDL_Draw.h">
+      <Filter>SDL_Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_Draw\SDL_Draw_Helper.h">
+      <Filter>SDL_Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtil.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\FlatShading\FlatShading.h">
+      <Filter>Scenes\FlatShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\FlatShading\FlatShadingSettingsGUI.h">
+      <Filter>Scenes\FlatShading</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Light.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\TextureMapping\TextureMapping.h">
+      <Filter>Scenes\TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\TextureMapping\TextureMappingSettingsGUI.h">
+      <Filter>Scenes\TextureMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\FPSCamera\FPSCamera.h">
+      <Filter>Scenes\FPSCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\FPSCamera\FPSCameraSettingsGUI.h">
+      <Filter>Scenes\FPSCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MeshPrimitives.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Clipping.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

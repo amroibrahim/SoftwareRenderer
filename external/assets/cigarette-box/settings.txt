@@ -1,0 +1,2 @@
+obj cigarette-box.obj
+tex cigarette-box.png

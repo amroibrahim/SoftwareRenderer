@@ -1,0 +1,2 @@
+obj triangle.obj
+tex pattern.png
